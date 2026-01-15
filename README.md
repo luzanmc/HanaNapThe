@@ -155,32 +155,32 @@ QR BANK CODE
 -  bank-code: "MB"                      # Mã ngân hàng
 📖 Hướng dẫn sử dụng Cho người chơi
 1️⃣ Nạp thẻ cào
-1./napthe  hoặc  /hana:napthe
-2.Các bước:
-3.Gõ lệnh /napthe để mở GUI
-4.Chọn loại thẻ (Viettel, Vina, Mobi, v.v.)
-5.Chọn mệnh giá
-6.Nhập số serial
-7.Nhập mã thẻ
-8.Chờ xử lý (1-30 giây)
-9.Nhận điểm vào tài khoản
+- /napthe  hoặc  /hananapthe
+- Các bước:
+- Gõ lệnh /napthe để mở GUI
+- Chọn loại thẻ (Viettel, Vina, Mobi, v.v.)
+- Chọn mệnh giá
+- Nhập số serial
+- Nhập mã thẻ
+- Chờ xử lý (1-30 giây)
+- Nhận điểm vào tài khoản
 2️⃣ Tạo QR chuyển khoản
-1./bank  hoặc  /hana:bank
-2.Các bước:
-3.Gõ lệnh /bank
-4.Nhận map item với QR code
-5.Mở app ngân hàng trên điện thoại
-6.Quét mã QR
-7.Kiểm tra thông tin chuyển khoản
-8.Xác nhận chuyển tiền
-9.Đợi 1-5 phút để nhận điểm
+- /bank  hoặc  /hanabank
+- Các bước:
+- Gõ lệnh /bank
+- Nhận map item với QR code
+- Mở app ngân hàng trên điện thoại
+- Quét mã QR
+- Kiểm tra thông tin chuyển khoản
+- Xác nhận chuyển tiền
+- Đợi 1-5 phút để nhận điểm
 3️⃣ Xem bảng xếp hạng
-- /top  hoặc  /hana:top
+- /top  hoặc  /hanatop
 4️⃣ Trợ giúp
-- /help  hoặc  /hana:help
+- /help  hoặc  /hanahelp
 - Cho Admin
 - Reload plugin
-- /hana:reload
+- /hanareload
 - Xem logs
 👑 Permissions
 - hananapthe.admin      # Quyền quản trị
