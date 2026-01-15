@@ -18,7 +18,7 @@
 
 ## 📋 Giới thiệu
 
-**HanaNapthe** là plugin Minecraft Paper 1.20 cao cấp, được thiết kế đặc biệt cho các server Việt Nam. Plugin cung cấp giải pháp nạp thẻ cào và chuyển khoản ngân hàng tự động, với giao diện đẹp mắt và trải nghiệm người dùng tối ưu.
+**HanaNapthe** là plugin Minecraft Paper 1.20 cao cấp, được thiết kế đặc biệt cho server Minecraft. Plugin cung cấp giải pháp nạp thẻ cào và chuyển khoản ngân hàng tự động, với giao diện đẹp mắt và trải nghiệm người dùng tối ưu.
 
 ### ⭐ Điểm nổi bật
 
@@ -132,76 +132,71 @@ QR BANK CODE
 | **PlaceholderAPI** | 2.11.5+ | ⚠️ Khuyến nghị |
 | **Floodgate** | 2.2.2+ | ❌ Tuỳ chọn (cho Bedrock) |
 
-Cấu hình
-Khi khởi động lần đầu, plugin sẽ tạo thư mục:
-plugins/HanaNapthe/
-├── config.yml          # Cấu hình chính
-├── discord.yml         # Webhook Discord
-├── playerdata.json     # Dữ liệu người chơi
-└── lang/
-    ├── vi.yml          # Tiếng Việt
-    └── en.yml          # Tiếng Anh
-Chỉnh sửa config.yml:
-api:
-  card2k:
-    partner-id: "YOUR_ID_HERE"        # ID từ Card2k.com
-    partner-key: "YOUR_KEY_HERE"      # Key từ Card2k.com
-  thueapibank:
-    api-key: "YOUR_API_KEY"           # API key từ ThueAPIBank
+- Cấu hình
+- Khi khởi động lần đầu, plugin sẽ tạo thư mục:
+- plugins/HanaNapthe/
+- ├── config.yml          # Cấu hình chính
+- ├── discord.yml         # Webhook Discord
+- ├── playerdata.json     # Dữ liệu người chơi
+- └── lang/
+-   ├── vi.yml          # Tiếng Việt
+-   └── en.yml          # Tiếng Anh
+- Chỉnh sửa config.yml:
+- api:
+-  card2k:
+-    partner-id: "YOUR_ID_HERE"        # ID từ Card2k.com
+-    partner-key: "YOUR_KEY_HERE"      # Key từ Card2k.com
+-  thueapibank:
+-    api-key: "YOUR_API_KEY"           # API key từ ThueAPIBank
 
-bank:
-  account-number: "0123456789"         # STK ngân hàng của bạn
-  account-name: "NGUYEN VAN A"         # Tên chủ tài khoản
-  bank-code: "MB"                      # Mã ngân hàng
-📖 Hướng dẫn sử dụng
-Cho người chơi
+- bank:
+-  account-number: "0123456789"         # STK ngân hàng của bạn
+-  account-name: "NGUYEN VAN A"         # Tên chủ tài khoản
+-  bank-code: "MB"                      # Mã ngân hàng
+📖 Hướng dẫn sử dụng Cho người chơi
 1️⃣ Nạp thẻ cào
-/napthe  hoặc  /hana:napthe
-Các bước:
-Gõ lệnh /napthe để mở GUI
-Chọn loại thẻ (Viettel, Vina, Mobi, v.v.)
-Chọn mệnh giá
-Nhập số serial
-Nhập mã thẻ
-Chờ xử lý (1-30 giây)
-Nhận điểm vào tài khoản
+1./napthe  hoặc  /hana:napthe
+2.Các bước:
+3.Gõ lệnh /napthe để mở GUI
+4.Chọn loại thẻ (Viettel, Vina, Mobi, v.v.)
+5.Chọn mệnh giá
+6.Nhập số serial
+7.Nhập mã thẻ
+8.Chờ xử lý (1-30 giây)
+9.Nhận điểm vào tài khoản
 2️⃣ Tạo QR chuyển khoản
-/bank  hoặc  /hana:bank
-Các bước:
-Gõ lệnh /bank
-Nhận map item với QR code
-Mở app ngân hàng trên điện thoại
-Quét mã QR
-Kiểm tra thông tin chuyển khoản
-Xác nhận chuyển tiền
-Đợi 1-5 phút để nhận điểm
+1./bank  hoặc  /hana:bank
+2.Các bước:
+3.Gõ lệnh /bank
+4.Nhận map item với QR code
+5.Mở app ngân hàng trên điện thoại
+6.Quét mã QR
+7.Kiểm tra thông tin chuyển khoản
+8.Xác nhận chuyển tiền
+9.Đợi 1-5 phút để nhận điểm
 3️⃣ Xem bảng xếp hạng
-/top  hoặc  /hana:top
+- /top  hoặc  /hana:top
 4️⃣ Trợ giúp
-/help  hoặc  /hana:help
-Cho Admin
-Reload plugin
-/hana:reload
-Xem logs
-tail -f logs/latest.log | grep HanaNapthe
-Permissions
-hananapthe.admin      # Quyền quản trị
-hananapthe.napthe     # Sử dụng /napthe
-hananapthe.bank       # Sử dụng /bank
-hananapthe.top        # Xem bảng xếp hạng
+- /help  hoặc  /hana:help
+- Cho Admin
+- Reload plugin
+- /hana:reload
+- Xem logs
+👑 Permissions
+- hananapthe.admin      # Quyền quản trị
+- hananapthe.napthe     # Sử dụng /napthe
+- hananapthe.bank       # Sử dụng /bank
+- hananapthe.top        # Xem bảng xếp hạng
 🎨 Screenshots
-GUI Nạp thẻ
-�
-Load image
-QR Code trên Map
-�
-Load image
-Top Leaderboard
-�
-Load image
+- GUI Nạp thẻ
+
+- QR Code trên Map
+
+- Top Leaderboard
+
 💬 Hỗ trợ
 🐛 Báo lỗi
-Nếu bạn gặp lỗi, vui lòng tạo issue tại:
+- Nếu bạn gặp lỗi, vui lòng tạo issue tại:
 👉 GitHub Issues
 Template:
 **Mô tả lỗi:**
@@ -219,3 +214,4 @@ Template:
 - Java: 17
 📞 Liên hệ
 Dicord:https://discord.hanamc.fun/
+
