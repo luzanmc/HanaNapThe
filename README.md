@@ -10,7 +10,7 @@
 [![Java](https://img.shields.io/badge/java-17-orange.svg?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)](https://github.com/luzanmc/HanaNapthe)
 
-[✨ Tính năng](#-tính-năng) • [📦 Cài đặt](#-cài-đặt) • [📖 Hướng dẫn](#-hướng-dẫn) • [🎨 Screenshots](#-screenshots) • [💬 Hỗ trợ](#-hỗ-trợ)
+[✨ Tính năng](#-tính-năng)  • [📖 Hướng dẫn](#-hướng-dẫn) • [🎨 Screenshots](#-screenshots) • [💬 Hỗ trợ](#-hỗ-trợ)
 
 ---
 
@@ -218,4 +218,4 @@ Template:
 - Plugin version: 1.0.0
 - Java: 17
 📞 Liên hệ
-Dicord
+Dicord:https://discord.hanamc.fun/
